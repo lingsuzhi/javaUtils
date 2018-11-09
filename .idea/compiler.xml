@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="javautils" />
+        <module name="pxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="javautils" target="8" />
+      <module name="pxy" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
